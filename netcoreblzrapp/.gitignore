@@ -138,12 +138,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-bin
-obj
-packages
-Bin
-Obj
-Packages
 
 # Visual Studio 2015
 .vs/

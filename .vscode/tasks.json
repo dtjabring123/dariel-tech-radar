@@ -41,7 +41,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/netcore-gRPC/netcore-gRPC.csproj",
+        "${workspaceFolder}/netcore-gRPC/greeter/GrpcGreeter.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],

@@ -48,11 +48,11 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build-gRPC",
-      "program": "${workspaceFolder}/netcoregRPC/greeter/bin/Debug/net5.0/GrpcGreeter.dll",
+      "program": "${workspaceFolder}/netcore-gRPC/greeter/bin/Debug/net5.0/GrpcGreeter.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
-      "console": "internalConsole"
+      "console": "integratedTerminal" 
     },
     {
       // Use IntelliSense to find out which attributes exist for C# debugging

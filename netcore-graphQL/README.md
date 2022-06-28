@@ -19,3 +19,5 @@ http://localhost:60341/ui/graphiql
 http://localhost:60341/ui/altair
 
 http://localhost:60341/ui/voyager
+
+

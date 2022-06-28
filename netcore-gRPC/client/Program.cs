@@ -18,9 +18,19 @@ namespace GrpcGreeterClient
       var channel = GrpcChannel.ForAddress("http://localhost:5001");
 
       var client = new Greeter.GreeterClient(channel);
+
+      try
+      {
+        Console.WriteLine("Greeting: " + client.SayHello(new HelloRequest { Name = "0"}).Message);
+        Console.WriteLine("Greeting: " + client.SayHello(new HelloRequest { Name = "not valid"}).Message);
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
       var reply = await client
         .SayHelloAsync(
-            new HelloRequest { Name = "GreeterClient" }
+            new HelloRequest { Name = "1" }
           );
 
       Console.WriteLine("Greeting: " + reply.Message);

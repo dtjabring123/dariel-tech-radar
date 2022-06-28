@@ -8,3 +8,4 @@ https://docs.microsoft.com/en-us/aspnet/core/tutorials/grpc/grpc-start?view=aspn
 
 https://docs.microsoft.com/en-US/aspnet/core/grpc/troubleshoot
 
+https://cloud.google.com/blog/products/api-management/understanding-grpc-openapi-and-rest-and-when-to-use-them

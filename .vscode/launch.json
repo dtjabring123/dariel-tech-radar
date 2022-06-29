@@ -2,6 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
       "name": "GraphQL Serve .NET Core Launch (web)",
       "type": "coreclr",
       "request": "launch",
@@ -52,7 +60,7 @@
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
-      "console": "integratedTerminal" 
+      "console": "integratedTerminal"
     },
     {
       // Use IntelliSense to find out which attributes exist for C# debugging

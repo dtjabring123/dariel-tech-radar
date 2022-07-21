@@ -16,6 +16,45 @@ http://localhost:60341/ui/playground
 
 http://localhost:60341/ui/graphiql
 
+### Sample-specific 
+
+#### Query
+    {
+      messages {
+        content
+        sentAt
+        from {
+          displayName
+        }
+      }
+    }
+
+#### Add new
+
+    mutation {
+      addMessage(message: { fromId: "1", content: "hello" }) {
+        content
+        from {
+          displayName
+        }
+        sentAt
+      }
+    }
+
+#### Pub/sub 
+
+    subscription {
+      messageAdded {
+        content
+        sentAt
+        from {
+          displayName
+        }
+      }
+    }
+
+
+
 http://localhost:60341/ui/altair
 
 http://localhost:60341/ui/voyager

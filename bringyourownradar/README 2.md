@@ -26,8 +26,7 @@ Data public in a form thoughtwors can digest; at least the below column headers,
 
 ### Using CSV data
 
-The other way to provide your data is using CSV document format.
-You can enter any URL that responds CSV data into the input field on the first page.
+provide data using CSV document format. enter a URL which responds with CSV data into the input field on the first page.
 The format is just the same as that of the Google Sheet, the example is as follows:
 
 ```

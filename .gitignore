@@ -144,3 +144,5 @@ Packages
 
 # Visual Studio 2015
 .vs/
+
+js-pouchdb-server/

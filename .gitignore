@@ -146,3 +146,5 @@ Packages
 .vs/
 
 js-pouchdb-server/
+
+js-pouchdb/server/

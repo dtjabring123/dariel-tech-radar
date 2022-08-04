@@ -12,8 +12,8 @@ then run
     add-cors-to-couchdb
 
 
-Now you can view the [Fauxton](https://github.com/apache/couchdb-fauxton) web interface by opening http://localhost:3000/_utils in a browser.
-Basic options
+Now you can view the [Fauxton](https://github.com/apache/couchdb-fauxton) web interface by opening http://localhost:5984/_utils in a browser.
 
-    npm install -g add-cors-to-couchdb
-    add-cors-to-couchdb
+Log in admin, admin
+
+Create todos DB

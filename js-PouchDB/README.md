@@ -9,3 +9,5 @@ From this directory run:
 view here:
 
 http://localhost:8080
+
+then run CouchDB ~/server

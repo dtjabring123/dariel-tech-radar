@@ -15,6 +15,7 @@ fn main() {
 
     if action == "add" {
         todo.insert(item);
+        
         match todo.save() {
             Ok(_) => println!("todo saved"),
             Err(why) => println!("An error occurred: {}", why),
@@ -39,16 +40,19 @@ impl Todo {
     //
     fn insert(&mut self, key: String) {
         // insert a new item into our map.
-        // we pass true as value
+        // set to 'true' as default value
         self.map.insert(key, true);
     }
     //
     fn save(self) -> Result<(), std::io::Error> {
         let mut content = String::new();
+
         for (k, v) in self.map {
             let record = format!("{}\t{}\n", k, v);
+
             content.push_str(&record)
         }
+
         std::fs::write("db.txt", content)
     }
     //
@@ -85,14 +89,18 @@ impl Todo {
             .create(true)
             .read(true)
             .open("db.txt")?;
+
         let mut content = String::new();
+
         f.read_to_string(&mut content)?;
+        
         let map: HashMap<String, bool> = content
             .lines()
             .map(|line| line.splitn(2, '\t').collect::<Vec<&str>>())
             .map(|v| (v[0], v[1]))
             .map(|(k, v)| (String::from(k), FromStr::from_str(v).unwrap()))
             .collect();
+
         Ok(Todo { map })
     }
     //

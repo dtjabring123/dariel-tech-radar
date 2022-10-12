@@ -1,3 +1,4 @@
+using System;
 using GraphQL;
 using GraphQL.NewtonsoftJson;
 using GraphQL.Types;
@@ -8,12 +9,13 @@ namespace gql
   {
     public async void Run(string? input)
     {
+      
 
       if (string.IsNullOrEmpty(input)) return;
 
       var g = parse(input);
 
-      Console.Write(await g.Greet("Hello world!"));
+      Console.Write(await g.Greet(@$"{input}!"));
 
       Console.WriteLine();
 

@@ -9,7 +9,7 @@
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
   var db = new Pouch('todos');
-  var remoteCouch = "http://admin:admin@localhost:5984/todos";
+  var remoteCouch = "http://todousr:todopass@localhost:5984/todos";
   //var remoteCouch = false;
   // Host that the couch-persona server is running on
   var authHost = 'http://127.0.0.1:5984';

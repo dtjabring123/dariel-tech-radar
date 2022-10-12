@@ -1,0 +1,25 @@
+{
+	"folders": [
+    {
+      "path": "netcore-gRPC"
+    },
+    {
+      "path": "netcore-graphQL"
+    },
+    {
+      "path": "js-PouchDB"
+    },
+    {
+      "path": "netcoreblzrapp"
+    },
+    {
+      "path": "rust/hello-rust"
+    },
+    {
+      "path": "rust/rust-todo-cli-json"
+    },
+    {
+      "path": "rust/rust-todo-cli-txt"
+    }
+  ]
+}

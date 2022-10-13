@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 import csv
 from pathlib import Path
 
-filename = Path('data/technology-list.xlsx')
+filename = Path('_data/technology-list.xlsx')
 
 wb = load_workbook(filename = filename)
 

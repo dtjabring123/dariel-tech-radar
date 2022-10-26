@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 fn main() {
     let action = std::env::args().nth(1).expect("Please specify an action");
-    
+
     let item = std::env::args().nth(2).expect("Please specify an item");
 
     println!("{:?}, {:?}", action, item);
@@ -47,20 +47,19 @@ impl Todo {
         let f = std::fs::OpenOptions::new()
             .write(true)
             .create(true)
-            .open("db.json")?;
+            .open("db.json")
+            ?;
         // write to file with serde
         serde_json::to_writer_pretty(f, &self.map)?;
         Ok(())
     }
     //
     fn new() -> Result<Todo, std::io::Error> {
-        // open db.json
         let f = std::fs::OpenOptions::new()
             .write(true)
             .create(true)
             .read(true)
             .open("db.json")?;
-        // serialize json as HashMap
         match serde_json::from_reader(f) {
             Ok(map) => Ok(Todo { map }),
             Err(e) if e.is_eof() => Ok(Todo {

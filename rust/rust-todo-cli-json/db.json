@@ -1,3 +1,4 @@
 {
-  "watch video": true
+  "watch video": false,
+  "finish talkingo": true
 }

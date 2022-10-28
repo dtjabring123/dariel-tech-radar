@@ -10,11 +10,11 @@ fn main() {
 
     println!("{0}", greeting);
 
-    // let s1 = String::from(greeting);
+    let s1 = String::from(greeting);
 
-    // let len = (&s1).len();
+    let len = (&s1).len();
 
-    // println!("The length of '{}' is {}.", s1, len);
+    println!("The length of '{}' is {}.", s1, len);
 
     let width = 24;
 

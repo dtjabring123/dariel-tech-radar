@@ -20,6 +20,12 @@
     },
     {
       "path": "rust/rust-todo-cli-txt"
+    },
+    {
+      "path": "vowpalwabbit"
+    },
+    {
+      "path": "d2lang"
     }
   ]
 }

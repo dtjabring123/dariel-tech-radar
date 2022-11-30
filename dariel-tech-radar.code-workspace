@@ -26,6 +26,12 @@
     },
     {
       "path": "d2lang"
+    },
+    {
+      "path": "wasm"
+    },
+    {
+      "path": "graphviz"
     }
   ]
 }

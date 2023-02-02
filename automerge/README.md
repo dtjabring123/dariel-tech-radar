@@ -61,26 +61,6 @@ To try this out, print it to the console using Automerge.getActorId(doc):
     let actorId = Automerge.getActorId(doc)
     console.log(actorId)
 
-Notice that every time you refresh the page, the actorId is a different randomly generated string.
-## Modeling data​
+Every time you refresh the page, the actorId is a different randomly generated string.
 
-build a todo list, which will have the following requirements: A list of todo items
-  where each item has a text box, boolean checkmark
-  An input box to add another item 
 
-To store the state of the todo list, we can use a JSON structure like this:
-
-    {
-      "items": [
-        {
-          "text": "water the plants",
-          "done": false
-        },
-        {
-          "text": "feed the cat",
-          "done": true
-        }
-      ]
-    }
-
-When the document is first created, it has no schema. Automerge documents, unlike SQL databases, do not have a fixed schema that you set at the beginning. Instead, we set up the document structure by making changes to the Automerge document over time. See the next section to make your first change.

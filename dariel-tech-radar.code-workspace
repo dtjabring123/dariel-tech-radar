@@ -32,6 +32,9 @@
     },
     {
       "path": "graphviz"
+    },
+    {
+      "path": "git-automerge"
     }
   ]
 }

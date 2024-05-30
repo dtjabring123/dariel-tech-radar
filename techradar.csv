@@ -1,0 +1,24 @@
+name;ring;quadrant;isNew;description
+Flutter;Assess;languages-and-frameworks;FALSE;TBD
+Blazor;Assess;languages-and-frameworks;FALSE;TBD
+Application Insights;Assess;Techniques;FALSE;TBD
+Node.JS;Hold;languages-and-frameworks;FALSE;TBD
+Rust;Assess;languages-and-frameworks;FALSE;TBD
+Cloud RPA;Assess;Platforms;FALSE;TBD
+Kotlin;Assess;languages-and-frameworks;FALSE;TBD
+JetPack Compose;Assess;Techniques;FALSE;TBD
+GraphQL;Assess;Tools;FALSE;TBD
+Jamstack;Assess;Platforms;FALSE;Deploying Functions into a Cloud based environment which requires no infrastructure to run (CP abstracts this)
+React.js;Hold;languages-and-frameworks;FALSE;TBD
+PrestoDB;Assess;Tools;FALSE;TBD
+Vue;Hold;languages-and-frameworks;FALSE;TBD
+Svelte, TailwindCSS;Assess;languages-and-frameworks;FALSE;TBD
+Functional Java;Assess;Techniques;FALSE;TBD
+OpenTelemetry;Assess;Tools;FALSE;TBD
+Typescript;Hold;languages-and-frameworks;FALSE;TBD
+Python;Trial;languages-and-frameworks;FALSE;TBD
+Micro Front Ends;Assess;Techniques;FALSE;TBD
+Containers;Assess;Tools;FALSE;TBD
+Container Orchestration;Assess;Tools;FALSE;TBD
+DevSecOps;Assess;Techniques;FALSE;TBD
+Pipelines;Trial;Platforms;FALSE;TBD

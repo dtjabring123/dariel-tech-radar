@@ -35,6 +35,15 @@
     },
     {
       "path": "automerge"
+    },
+    {
+      "path": "docspell"
+    },
+    {
+      "path": "wordcloud"
+    },
+    {
+      "path": "hylo"
     }
   ]
 }

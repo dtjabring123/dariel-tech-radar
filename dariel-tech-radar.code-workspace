@@ -44,6 +44,33 @@
     },
     {
       "path": "hylo"
+    },
+    {
+      "path": "cog"
+    },
+    {
+      "path": "nim"
+    },
+    {
+      "path": "mistralai"
     }
-  ]
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+    {
+      "name": "Launch via NPM",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "debug"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+    ]
+  }
 }

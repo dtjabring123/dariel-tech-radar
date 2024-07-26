@@ -1,0 +1,13 @@
+{
+  "name": "mistralai",
+  "type": "module",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "scripts": {
+    "start": "MISTRAL_API_KEY=EyOYtjmm96fll7kcgJjqqr1ujJcQvADi node main.js"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^0.5.0"
+  }
+}

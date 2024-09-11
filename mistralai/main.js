@@ -11,6 +11,7 @@ const chatResponse = await client.chat({
   messages: [{role: 'user', content: 'What is the best French cheese?'}],
 });
 
+
 console.log('Chat:', chatResponse.choices[0].message.content);
 
 /**

@@ -1,7 +1,0 @@
-name,ring,quadrant,isNew,description
-Babel,adopt,tools,TRUE,test
-Podman,assess,tools,TRUE,<div>Podman is a daemonless container engine for developing managing and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: <strong>alias docker=podman</strong> </div>
-Apache Kafka,trial,languages & frameworks,FALSE,test
-Android-x86,assess,platforms,TRUE,test
-Cloud lift and shift,hold,techniques,FALSE,test
-Blazor,hold,languages & frameworks, FALSE, "<div>UI ,technology to replace MVC forms as well as SPA with all of the existing benefits<br/><strong>Vendor: </strong><em>Microsoft</em><br/><strong>Assessed by: </strong><em>Saša Slankamenac</em><br/><strong>Last assement date: </strong><em>Q1 - 2022</em><br/><strong>Customer demand: </strong><em></em><br/><strong>Should we adopt: </strong><em>No</em><br/><strong>Value: </strong><em></em></div>"
